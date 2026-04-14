@@ -16,10 +16,8 @@ $mail->IsHTML(true);
 $mail->isSMTP(); // Send using SMTP
 $mail->Host = 'smtp.gmail.com'; // Set the SMTP server to send through
 $mail->SMTPAuth = true; // Enable SMTP authentication
-$mail->Username = 'olesia.w888@gmail.com'; // SMTP username (email)
-$mail->Password = '.'; // SMTP password (Google Account -> Security -> App passwords -> Add)
-
-//сгенерировать и вставить пароль(password) с гугл-аккаунта, тут выше. Для подключения электронной почты, остальное все для этого уже проставила!
+$mail->Username = ''; // SMTP username (email)
+$mail->Password = '.'; // SMTP password (Google Account -> Security -> App passwords -> 
 
 
 

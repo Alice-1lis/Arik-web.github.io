@@ -1,0 +1,689 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preload" href="./assets/fonts/Satoshi-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Satoshi-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Gambetta-LightItalic.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Chillax-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Chillax-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<title>Home Page</title>
+		<script type="module" crossorigin="" src="./js/index.min.js?v=1776202052029"></script>
+		<link rel="modulepreload" crossorigin="" href="./js/common.min.js?v=1776202052029">
+		<link rel="modulepreload" crossorigin="" href="./js/main.min.js?v=1776202052029">
+		<link rel="modulepreload" crossorigin="" href="./js/work.min2.js?v=1776202052029">
+		<link rel="modulepreload" crossorigin="" href="./js/letstalk.min.js?v=1776202052029">
+		<link rel="modulepreload" crossorigin="" href="./js/widgetheader.min.js?v=1776202052029">
+		<link rel="stylesheet" crossorigin="" href="./css/main.min.css?v=1776202052029">
+		<link rel="stylesheet" crossorigin="" href="./css/work.min2.css?v=1776202052029">
+		<link rel="stylesheet" crossorigin="" href="./css/letstalk.min.css?v=1776202052029">
+		<link rel="stylesheet" crossorigin="" href="./css/widgetheader.min.css?v=1776202052029">
+		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1776202052029">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" class="header">
+				<div class="header__container">
+					<header class="header__body">
+						<img src="./assets/img/logo.svg" class="header__logo" alt="logo">
+						<div class="header__menu menu">
+							<!-- burger-button -->
+							<!-- <button type="button" data-fls-menu class="menu__icon icon-menu"><span></span></button> -->
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item">
+										<a href="index.html" class="menu__link menu__link--active">Home</a>
+									</li>
+									<li class="menu__item">
+										<a href="work.html" class="menu__link">Work</a>
+									</li>
+									<li class="menu__item">
+										<a href="about.html" class="menu__link">About</a>
+									</li>
+									<li class="menu__item">
+										<a href="services.html" class="menu__link">Services</a>
+									</li>
+									<li class="menu__item">
+										<a href="blog.html" class="menu__link">Blog</a>
+									</li>
+									<li class="menu__item">
+										<a href="contacts.html" class="menu__link">Contacts</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<!--
+<fetch url="@components/layout/menu/menu.json">
+<each loop='item in response'>
+</each>
+</fetch>
+-->
+						<a href="#" data-fls-button="" class="header__button button button--lite">Let's talk</a>
+						<button type="button" data-fls-menu="" class="icon-menu">
+							<span></span>
+						</button>
+						<!-- burger-button -->
+					</header>
+				</div>
+			</header>
+			<!-- Главный файл, у меня index.html, а не home.html, как у него -->
+			<main class="page page--home">
+				<section class="page__hero hero">
+					<div class="hero__container">
+						<div class="hero__picture">
+							<picture>
+								<source media="(max-width: 600px)" srcset="./assets/img/arik-600.webp" type="image/webp">
+								<img class="hero__image" alt="Hero Image" src="./assets/img/arik.webp">
+							</picture>
+						</div>
+						<div data-fls-blockhead="" class="blockhead">
+							<h2 class="blockhead__title blockhead__title--size-128">
+								Let’s make your
+								<span>Website shine</span>
+							</h2>
+							<div class="blockhead__text blockhead__text--size-24">
+								<p>Premium web design, webflow, and SeO services to help your business stand out.</p>
+							</div>
+						</div>
+					</div>
+				</section>
+				<div class="page__clients clients">
+					<ul class="clients__container">
+						<li class="clients__item">
+							<img src="./assets/img/clients/01.svg" alt="image">
+						</li>
+						<li class="clients__item">
+							<img src="./assets/img/clients/02.svg" alt="image">
+						</li>
+						<li class="clients__item">
+							<img src="./assets/img/clients/03.svg" alt="image">
+						</li>
+						<li class="clients__item">
+							<img src="./assets/img/clients/04.svg" alt="image">
+						</li>
+						<li class="clients__item">
+							<img src="./assets/img/clients/05.svg" alt="image">
+						</li>
+						<li class="clients__item">
+							<img src="./assets/img/clients/06.svg" alt="image">
+						</li>
+					</ul>
+				</div>
+				<div class="page__skills skills">
+					<div class="skills__container">
+						<article data-fls-skill="" class="skill">
+							<h4 class="skill__title">
+								<a href="" class="skill__link-title">Web Design</a>
+							</h4>
+							<p class="skill__text">
+								Visually stunning and user-friendly websites that captivate your audience and drive engagement.
+							</p>
+							<a href="#" data-fls-button="" class="button button--text button--icon-arrow button--arrow-ru">About Webdezign</a>
+						</article>
+						<article data-fls-skill="" class="skill">
+							<h4 class="skill__title">
+								<a href="" class="skill__link-title">Webflow Development</a>
+							</h4>
+							<p class="skill__text">
+								Custom Webflow solutions that bring your vision to life with seamless functionality and performance.
+							</p>
+							<a href="#" data-fls-button="" class="button button--text button--icon-arrow button--arrow-ru">About Webflow</a>
+						</article>
+						<article data-fls-skill="" class="skill">
+							<h4 class="skill__title">
+								<a href="" class="skill__link-title">SEO Optimization</a>
+							</h4>
+							<p class="skill__text">
+								Boost your online visibility and drive organic traffic with our expert SEO strategies.
+							</p>
+							<a href="#" data-fls-button="" class="button button--text button--icon-arrow button--arrow-ru">About SEO</a>
+						</article>
+					</div>
+				</div>
+				<section class="page__selected-work selected-work">
+					<div class="selected-work__container">
+						<div data-fls-widgetheader="" class="selected-work__widgetheader widgetheader">
+							<h2 class="selected-work__title">
+								Selected
+								<span>Work</span>
+							</h2>
+							<a href="#" data-fls-button="" class="widgetheader__button button button--text button--icon-arrow button--arrow-ru">See all</a>
+						</div>
+						<div class="selected-work__items works">
+							<article data-fls-work="" class="item-work">
+								<a href="#" class="item-work__picture">
+									<picture>
+										<source media="(max-width: 600px)" srcset="./assets/img/works/01-600.webp" type="image/webp">
+										<img class="item-work__image" alt="image" src="./assets/img/works/01.webp">
+									</picture>
+								</a>
+								<div class="item-work__body">
+									<h5 class="item-work__name">
+										<a href="#" class="item-work__link-name">Space</a>
+									</h5>
+									<a href="NaN" class="item-work__category">Webdesign</a>
+								</div>
+							</article>
+							<article data-fls-work="" class="item-work">
+								<a href="#" class="item-work__picture">
+									<picture>
+										<source media="(max-width: 600px)" srcset="./assets/img/works/02-600.webp" type="image/webp">
+										<img class="item-work__image" alt="image" src="./assets/img/works/02.webp">
+									</picture>
+								</a>
+								<div class="item-work__body">
+									<h5 class="item-work__name">
+										<a href="#" class="item-work__link-name">Nova</a>
+									</h5>
+									<a href="NaN" class="item-work__category">Webdesign</a>
+								</div>
+							</article>
+							<article data-fls-work="" class="item-work">
+								<a href="#" class="item-work__picture">
+									<picture>
+										<source media="(max-width: 600px)" srcset="./assets/img/works/03-600.webp" type="image/webp">
+										<img class="item-work__image" alt="image" src="./assets/img/works/03.webp">
+									</picture>
+								</a>
+								<div class="item-work__body">
+									<h5 class="item-work__name">
+										<a href="#" class="item-work__link-name">Sonic</a>
+									</h5>
+									<a href="NaN" class="item-work__category">Webdesign</a>
+								</div>
+							</article>
+							<article data-fls-work="" class="item-work">
+								<a href="#" class="item-work__picture">
+									<picture>
+										<source media="(max-width: 600px)" srcset="./assets/img/works/04-600.webp" type="image/webp">
+										<img class="item-work__image" alt="image" src="./assets/img/works/04.webp">
+									</picture>
+								</a>
+								<div class="item-work__body">
+									<h5 class="item-work__name">
+										<a href="#" class="item-work__link-name">Solar</a>
+									</h5>
+									<a href="NaN" class="item-work__category">Webdezign</a>
+								</div>
+							</article>
+						</div>
+					</div>
+				</section>
+				<section class="process">
+					<div class="process__container">
+						<div data-fls-blockhead="" class="process__blockhead blockhead">
+							<span class="blockhead__lablel">The Process</span>
+							<h1 class="blockhead__title">
+								Your Website
+								<span>in 5 steps</span>
+							</h1>
+							<div class="blockhead__text">
+								<p>Our process ensures that we create a website tailored to your business needs.</p>
+							</div>
+						</div>
+						<div class="process__items items-process">
+							<div class="items-process__header">
+								<div class="items-process__arrow items-process__arrow--icon-arrow items-process__arrow--arrow-d"></div>
+							</div>
+							<div class="items-process__body">
+								<div class="items-process__item item-process">
+									<article data-fls-item="" class="item-process__body item">
+										<div class="item__time">2 hours</div>
+										<div class="item__lable">Do we Match</div>
+										<h4 class="item__title">Discovery Call</h4>
+										<div class="item__text">
+											<p>
+												We discuss your project requirements, goals, and vision to ensure we're a perfect
+									fit.
+											</p>
+										</div>
+										<ul class="item__list">
+											<li class="item__item">We get to know each other</li>
+											<li class="item__item">We discuss your project requirements, goals, and vision</li>
+											<li class="item__item">We ensure we're a perfect fit</li>
+										</ul>
+									</article>
+								</div>
+								<div class="items-process__item item-process">
+									<article data-fls-item="" class="item-process__body item">
+										<div class="item__time">1 Week</div>
+										<div class="item__lable">lorem ipsum</div>
+										<h4 class="item__title">Concept & Strategy</h4>
+										<div class="item__text">
+											<p>
+												We discuss your project requirements, goals, and vision to ensure we're a perfect
+									fit.
+											</p>
+										</div>
+										<ul class="item__list">
+											<li class="item__item">UX Design</li>
+											<li class="item__item">Wireframes</li>
+											<li class="item__item">Interactive Prototype</li>
+										</ul>
+									</article>
+								</div>
+								<div class="items-process__item item-process">
+									<article data-fls-item="" class="item-process__body item">
+										<div class="item__time">1 Week</div>
+										<div class="item__lable">Some Magic</div>
+										<h4 class="item__title">Web Design</h4>
+										<div class="item__text">
+											<p>
+												We discuss your project requirements, goals, and vision to ensure we're a perfect
+									fit.
+											</p>
+										</div>
+										<ul class="item__list">
+											<li class="item__item">High-end web design tailared to you brand</li>
+											<li class="item__item">Interactive prototype of the design</li>
+										</ul>
+									</article>
+								</div>
+								<div class="items-process__item item-process">
+									<article data-fls-item="" class="item-process__body item">
+										<div class="item__time">2 Weeks</div>
+										<div class="item__lable">More Magic</div>
+										<h4 class="item__title">Development</h4>
+										<div class="item__text">
+											<p>
+												We discuss your project requirements, goals, and vision to ensure we're a perfect
+									fit.
+											</p>
+										</div>
+										<ul class="item__list">
+											<li class="item__item">Custom framer website</li>
+											<li class="item__item">Modular web design systems</li>
+											<li class="item__item">CMS integration</li>
+										</ul>
+									</article>
+								</div>
+								<div class="items-process__item item-process">
+									<article data-fls-item="" class="item-process__body item">
+										<div class="item__time">2 hours</div>
+										<div class="item__lable">Ready to go</div>
+										<h4 class="item__title">Website Onboarding</h4>
+										<div class="item__text">
+											<p>
+												We discuss your project requirements, goals, and vision to ensure we're a perfect
+									fit.
+											</p>
+										</div>
+										<ul class="item__list">
+											<li class="item__item">Personal workshop</li>
+											<li class="item__item">Personalized video tutorials</li>
+											<li class="item__item">Edit text and images directly on your website</li>
+										</ul>
+									</article>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="reviews">
+					<div class="reviews__container">
+						<div data-fls-blockhead="" class="reviews__blockhead blockhead">
+							<h2 class="blockhead__title blockhead__title--size-96">
+								What my clients say
+								<span>Website shine</span>
+							</h2>
+							<div class="blockhead__text blockhead__text--size-18">
+								<p>
+									See what my clients have to say about working with me and the result I helped them ochieve.
+								</p>
+							</div>
+						</div>
+						<div data-fls-masonry="" class="reviews__items">
+							<div class="reviews__grid"></div>
+							<article data-fls-border="" data-fls-masonry-item="" class="reviews__item item-review">
+								<img src="./assets/img/clients/03.svg" alt="Image" class="item-review__icon">
+								<h4 class="item-review__title">
+									<a href="#" class="item-review__link-title">Excellent Work!</a>
+								</h4>
+								<div class="item-review__text">
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+									</p>
+								</div>
+								<div class="item-review__author author-review">
+									<picture>
+										<img alt="Image" class="author-review__avatar" src="./assets/img/reviews/avatar.webp">
+									</picture>
+									<div class="author-review__body">
+										<div class="author-review__name">John Smith</div>
+										<div class="author-review__company">ABS Company</div>
+									</div>
+								</div>
+							</article>
+							<article data-fls-border="" data-fls-masonry-item="" class="reviews__item item-review">
+								<img src="./assets/img/clients/01.svg" alt="Image" class="item-review__icon">
+								<h4 class="item-review__title">
+									<a href="#" class="item-review__link-title">Excellent Work!</a>
+								</h4>
+								<div class="item-review__text">
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod,
+							eligendi assumenda cupiditate. Exercitationem, nemo qui!
+									</p>
+								</div>
+								<div class="item-review__author author-review">
+									<picture>
+										<img alt="Image" class="author-review__avatar" src="./assets/img/reviews/avatar.webp">
+									</picture>
+									<div class="author-review__body">
+										<div class="author-review__name">John Smith</div>
+										<div class="author-review__company">ABS Company</div>
+									</div>
+								</div>
+							</article>
+							<article data-fls-border="" data-fls-masonry-item="" class="reviews__item item-review">
+								<img src="./assets/img/clients/02.svg" alt="Image" class="item-review__icon">
+								<h4 class="item-review__title">
+									<a href="#" class="item-review__link-title">Excellent Work!</a>
+								</h4>
+								<div class="item-review__text">
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+									</p>
+								</div>
+								<div class="item-review__author author-review">
+									<picture>
+										<img alt="Image" class="author-review__avatar" src="./assets/img/reviews/avatar.webp">
+									</picture>
+									<div class="author-review__body">
+										<div class="author-review__name">John Smith</div>
+										<div class="author-review__company">ABS Company</div>
+									</div>
+								</div>
+							</article>
+							<article data-fls-border="" data-fls-masonry-item="" class="reviews__item item-review">
+								<img src="./assets/img/clients/04.svg" alt="Image" class="item-review__icon">
+								<h4 class="item-review__title">
+									<a href="#" class="item-review__link-title">Excellent Work!</a>
+								</h4>
+								<div class="item-review__text">
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+									</p>
+								</div>
+								<div class="item-review__author author-review">
+									<picture>
+										<img alt="Image" class="author-review__avatar" src="./assets/img/reviews/avatar.webp">
+									</picture>
+									<div class="author-review__body">
+										<div class="author-review__name">John Smith</div>
+										<div class="author-review__company">ABS Company</div>
+									</div>
+								</div>
+							</article>
+							<article data-fls-border="" data-fls-masonry-item="" class="reviews__item item-review">
+								<img src="./assets/img/clients/05.svg" alt="Image" class="item-review__icon">
+								<h4 class="item-review__title">
+									<a href="#" class="item-review__link-title">Excellent Work!</a>
+								</h4>
+								<div class="item-review__text">
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+									</p>
+								</div>
+								<div class="item-review__author author-review">
+									<picture>
+										<img alt="Image" class="author-review__avatar" src="./assets/img/reviews/avatar.webp">
+									</picture>
+									<div class="author-review__body">
+										<div class="author-review__name">John Smith</div>
+										<div class="author-review__company">ABS Company</div>
+									</div>
+								</div>
+							</article>
+							<article data-fls-border="" data-fls-masonry-item="" class="reviews__item item-review">
+								<img src="./assets/img/clients/06.svg" alt="Image" class="item-review__icon">
+								<h4 class="item-review__title">
+									<a href="#" class="item-review__link-title">Excellent Work!</a>
+								</h4>
+								<div class="item-review__text">
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+									</p>
+								</div>
+								<div class="item-review__author author-review">
+									<picture>
+										<img alt="Image" class="author-review__avatar" src="./assets/img/reviews/avatar.webp">
+									</picture>
+									<div class="author-review__body">
+										<div class="author-review__name">John Smith</div>
+										<div class="author-review__company">ABS Company</div>
+									</div>
+								</div>
+							</article>
+						</div>
+					</div>
+				</section>
+				<section class="about-module">
+					<!-- <div class="about-module__container"> -->
+					<div class="about-module__header">
+						<div class="about-module__picture">
+							<picture>
+								<source media="(max-width: 600px)" srcset="./assets/img/arik-600.webp" type="image/webp">
+								<img alt="Image" class="about-module__image" src="./assets/img/arik.webp">
+							</picture>
+						</div>
+						<div class="about-module__name name-about">
+							<!-- data-fls-marquee data-fls-marquee-speed="200"--подключить и в файле стилей вернуть все как было -->
+							<div class="name-about__item">
+								<span>Arik Andersson</span>
+							</div>
+							<div class="name-about__item">
+								<span>Arik Andersson</span>
+							</div>
+						</div>
+					</div>
+					<div class="about-module__container">
+						<div class="about-module__body">
+							<h4 class="about-module__title">
+								website that leaves
+								<span>a lasting impression!</span>
+							</h4>
+							<div class="about-module__content">
+								<p class="about-module__text">
+									Hi, I'm Arik, - a freelancer specializing in premium web design, development, and SEO services.
+						I`m passionate about creating unique and effective solutions for my clients, and I
+						bring a personal touch to every project. Let's work together to bring your vision to life!
+								</p>
+								<ul data-fls-social="" class="about-module__social social">
+									<li class="social__item">
+										<a href="https://www.twitter.com" target="_blank" rel="noopener" class="social__link social__link--icon-s-tw"></a>
+									</li>
+									<li class="social__item">
+										<a href="https://www.instagram.com" target="_blank" rel="noopener" class="social__link social__link--icon-s-inst"></a>
+									</li>
+									<li class="social__item">
+										<a href="https://www.dribbble.com" target="_blank" rel="noopener" class="social__link social__link--icon-s-drb"></a>
+									</li>
+									<li class="social__item">
+										<a href="https://www.behance.net" target="_blank" rel="noopener" class="social__link social__link--icon-s-bh"></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- </div> -->
+				</section>
+			</main>
+			<aside data-fls-letstalk="" class="lets-lalk">
+				<div data-fls-border="" data-fls-marquee="" data-fls-marquee-speed="100" class="lets-lalk__line line-talk">
+					<div class="lets-talk__item">Let's Talk</div>
+					<div class="lets-talk__item">+++</div>
+				</div>
+				<section class="lets-lalk__body">
+					<div class="lets-lalk__container">
+						<div data-fls-blockhead="" class="blockhead blockhead--gap-8">
+							<span class="blockhead__lablel">Project in mind?</span>
+							<h2 class="blockhead__title">
+								Let’s make your
+								<span>Website shine</span>
+							</h2>
+							<div class="blockhead__text">
+								<p>Premium web design, webflow, and SeO services to help your business stand out.</p>
+							</div>
+							<a href="#" data-fls-button="" class="blockhead__button button button--lite button--icon button--icon-arrow button--arrow-ru">Get in touch</a>
+						</div>
+					</div>
+				</section>
+			</aside>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container">
+					<div class="footer__body body-footer">
+						<div class="body-footer__content content-footer">
+							<a href="#" class="content-footer-link__logo">
+								<img class="content-footer__logo" src="./assets/img/logo.svg" alt="logo">
+							</a>
+							<ul data-fls-social="" class="content-footer__social social social social--text">
+								<li class="social__item">
+									<a href="https://www.twitter.com" rel="noopener" target="_blank" class="social__link social__link--icon-s-tw">Twitter</a>
+								</li>
+								<li class="social__item">
+									<a href="https://www.instagram.com" rel="noopener" target="_blank" class="social__link social__link--icon-s-inst">Instagram</a>
+								</li>
+								<li class="social__item">
+									<a href="https://www.dribbble.com" rel="noopener" target="_blank" class="social__link social__link--icon-s-drb">Dribbble</a>
+								</li>
+								<li class="social__item">
+									<a href="https://www.behance.net" rel="noopener" target="_blank" class="social__link social__link--icon-s-bh">Behance</a>
+								</li>
+							</ul>
+						</div>
+						<div data-fls-spollers="500" class="body-footer__menus">
+							<!-- Спойлер -->
+							<details class="body-footer__menu">
+								<summary>
+									<h5 class="body-footer__title">Pages</h5>
+								</summary>
+								<ul class="body-footer__list">
+									<li class="body-footer__item">
+										<a href="index.html" class="body-footer__link">Home</a>
+									</li>
+									<li class="body-footer__item">
+										<a href="work.html" class="body-footer__link">Work</a>
+									</li>
+									<li class="body-footer__item">
+										<a href="about.html" class="body-footer__link">About</a>
+									</li>
+									<li class="body-footer__item">
+										<a href="services.html" class="body-footer__link">Services</a>
+									</li>
+									<li class="body-footer__item">
+										<a href="blog.html" class="body-footer__link">Blog</a>
+									</li>
+									<li class="body-footer__item">
+										<a href="contacts.html" class="body-footer__link">Contacts</a>
+									</li>
+									<li class="body-footer__item">
+										<a href="#" data-fls-button="" class="button button--lite button--icon button--icon-arrow button--arrow-ru">Button</a>
+									</li>
+								</ul>
+							</details>
+							<details class="body-footer__menu">
+								<summary>
+									<h5 class="body-footer__title">CMS</h5>
+								</summary>
+								<ul class="body-footer__list">
+									<li class="body-footer__item">
+										<a href="#" class="body-footer__link">Work</a>
+									</li>
+									<li class="body-footer__item">
+										<a href="#" class="body-footer__link">Work Single</a>
+									</li>
+									<li class="body-footer__item">
+										<a href="#" class="body-footer__link">Blog</a>
+									</li>
+									<li class="body-footer__item">
+										<a href="#" class="body-footer__link">Blog Post</a>
+									</li>
+								</ul>
+							</details>
+						</div>
+					</div>
+					<div class="footer__bottom bottom-footer">
+						<div class="bottom-footer__copy">2022 Made by Pawel Gola. Powered by Framer..</div>
+						<a href="#" data-fls-scrollto="main" data-fls-button="" class="button button--text button--text-big button--text-rev button--arrow">To top</a>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<ul id="fls-dev-panel">
+			<li>
+				<a href="work.html">work</a>
+			</li>
+			<li>
+				<a href="singlework.html">singlework</a>
+			</li>
+			<li>
+				<a href="services.html">services</a>
+			</li>
+			<li>
+				<a href="pricing.html">pricing</a>
+			</li>
+			<li>
+				<a href="index.html">index</a>
+			</li>
+			<li>
+				<a href="contacts.html">contacts</a>
+			</li>
+			<li>
+				<a href="blogpage.html">blogpage</a>
+			</li>
+			<li>
+				<a href="blog.html">blog</a>
+			</li>
+			<li>
+				<a href="about.html">about</a>
+			</li>
+		</ul>
+		<style>
+			#fls-dev-panel{
+				position: fixed;
+				left: 10px;
+				padding: 15px 25px 15px 15px;
+				border-radius: 0 10px 10px 0;
+				top: 10%;
+				color: #ffffff;
+				background-color: rgba(51, 51, 51, 0.5);
+				transform: translate(-100%, 0px);
+				max-height: 80svh;
+				overflow: auto;
+				transition: all 300ms;
+				z-index: 9999;
+				font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+			}
+			#fls-dev-panel li{
+				list-style:none;
+			}
+			#fls-dev-panel hr{
+				border-bottom: 1px solid;
+			}
+			#fls-dev-panel:hover{
+				left: 0px;
+				transform: translate(0, 0);
+			}
+			#fls-dev-panel a{
+				text-decoration: none;
+				color: inherit;
+			}
+			#fls-dev-panel a:hover {
+				text-decoration: underline;
+			}
+			#fls-dev-panel li:not(:last-child) {
+				margin-bottom: 10px;
+			}
+		</style>
+	</body>
+</html>

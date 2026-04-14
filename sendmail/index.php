@@ -4,8 +4,7 @@ require 'config.php';
 
 //Від кого лист
 $mail->setFrom('some@gmail.com', 'Лист від ЧФ4'); // Вказати потрібний E-mail
-//Кому відправити
-$mail->addAddress('olesia.w888@gmail.com'); // Вказати потрібний E-mail  (some@gmail.com) был
+//Кому відправит'); // Вказати потрібний E-mail  (some@gmail.com) 
 //Тема листа
 $mail->Subject = 'Вітання! Це Чертоги Фрілансера 4';
 
